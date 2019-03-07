@@ -11,13 +11,13 @@ function setup(){
   	v[i]=0;
   }
   can=createCanvas(600, 600);
-  can.position(50,50);
+  can.position(100,100);
   can.class("bord");
   p=createP('Tic Tac Toe')
-  p.position(325,(-15));
+  p.position(375,35);
   p.class("bdd");
   p1=createP('How to play: Select the surface you would like to play on. Then, click on the square you would like to play. X goes first, then O. When the game is over, press Reset, and then select the surface you want to play on to play again. O will now go first as it alternates each game. The standard game is like playing on a 3x3 flat grid. If no surface is selected, that is the game that will play. Enjoy 😃')
-  p1.position(665,33.5);
+  p1.position(715,83.5);
   p1.class("bord");
   p1.style('width', '330px');
   background(0);
@@ -25,7 +25,7 @@ function setup(){
   stroke(255);
   grid();
   fill(0,255,0);
- radio = createRadio();radio.position(20,0);
+ radio = createRadio();radio.position(70,50);
  radio.option('Reset',1);
  radio.option('*Standard',3);
  radio.option('*Cylinder',4);
