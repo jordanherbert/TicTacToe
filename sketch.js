@@ -1,6 +1,7 @@
 // 6.1: 1,2;
 // 6.2: 1,2,4;
 let can;
+let anch;
 let p,p1;
 let f=false;
 let v = [];
