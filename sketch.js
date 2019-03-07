@@ -30,7 +30,9 @@ function setup(){
  radio.option('*Cylinder',4);
 
  radio.class('bord');
-
+	anch=select('#sier');
+	anch.position(0,0);
+	anch.class("bord");
 }
 
 function draw(){
